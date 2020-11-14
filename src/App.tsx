@@ -68,7 +68,7 @@ function App() {
       )}
       {!gameOver && !loading && userAnswers.length === number + 1
         && number !== total_Questions - 1 ?
-        (<button className='nextbtn' onClick={next_Question}>
+        (<button className="next btn btn-success btn-lg btn-block" onClick={next_Question}>
           Next
         </button>)
         : null}  

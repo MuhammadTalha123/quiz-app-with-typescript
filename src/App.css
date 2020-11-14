@@ -81,7 +81,7 @@ body {
   color: rgb(27, 26, 26);
 }
 
-.nextbtn{
+.next{
    width: 20em;
    max-width: 100%;
    text-align: center;
@@ -95,6 +95,6 @@ body {
    border-color: rgb(24, 189, 134);
 } 
 
-.nextbtn:hover {
+.next:hover {
   color: rgb(0, 105, 105);
 }
