@@ -56,7 +56,15 @@ body {
 .option{
   font-size: 26px;
   color: rgb(0, 10, 10);
+  background-color: transparent;
+  border-radius: 10px;
+  margin: 10px;
 }
+
+.option:hover {
+  color: aqua;
+}
+
 .next{
   border-top-left-radius: 0px ;
   border-top-right-radius: 0px ;
