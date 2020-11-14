@@ -73,11 +73,12 @@ body {
   color: rgb(0, 10, 10);
   background-color: transparent;
   border-radius: 10px;
+  border-color: rgb(12, 133, 93);
   margin: 10px;
 }
 
 .option:hover {
-  color: aqua;
+  color: rgb(27, 26, 26);
 }
 
 .nextbtn{
