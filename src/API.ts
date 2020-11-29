@@ -1,4 +1,4 @@
-import { shuffleArray } from "./utils.ts"
+import { shuffleArray } from "./utils"
 import { Question } from "./components/QuestionType"
 import { Difficulty } from "./components/DifficultyType"
 
