@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina&display=swap');
+
 * {
   font-family: 'Catamaran', sans-serif;
   box-sizing: border-box;
@@ -24,17 +26,30 @@ h1{
   margin: 20px;
 }
 body {
-  background-image: url(./image.jpg);
-  background-size: cover;
+  background: url(./image.jpg) no-repeat;
+  /* background-size: cover; */
   margin: 0;
-  padding: 0 20px;
+  background-repeat: none;
+  /* padding: 0 20px; */
   display: flex;
+  height: 100vh;
   justify-content: center;
+  background-size: cover;
 }
+
+.numbers {
+  font-family: 'Texturina', serif;
+}
+
+.questions {
+  font-family: 'Texturina', serif;
+}
+
 .start{
   width: 10em;
   max-width: 100%;
   border-radius: 10px;
+  font-family: 'Texturina', serif;
   border: none;
   padding: 6px;
   color: rgb(253, 253, 253);
@@ -55,12 +70,14 @@ body {
   width: 5rem;
 }
 #questionCard{
-  color: aqua;
+  color: rgb(27, 26, 26);
+  background-color: #b6ddff87;
+  font-family: 'Texturina', serif;
   max-width: 1100px;
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  border: 2px solid #0085a3;
+  /* border: 2px solid #0085a3; */
   padding: 20px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -73,32 +90,42 @@ body {
   font-size: 23px;
 }
 .option{
-  font-size: 26px;
-  color: rgb(0, 10, 10);
-  background-color: transparent;
   border-radius: 10px;
-  border-color: rgb(12, 133, 93);
+  font-family: 'Texturina', serif;
   margin: 10px;
+  border: none;
+  color: rgb(253, 253, 253);
+  background-color: rgba(41, 128, 155, 0.39);
+  font-size: 25px;
+  transition: .4s;
+  font-weight: 700;
 }
 
 .option:hover {
   color: rgb(27, 26, 26);
+  cursor: pointer;
+  background-color: rgba(4, 161, 209, 0.39);
 }
 
 .next{
    width: 20em;
    max-width: 100%;
+   font-family: 'Texturina', serif;
    text-align: center;
    justify-content: center;
    margin-top: 10px;
+   border: none;
    border-radius: 10px;
    padding: 10px;
-   color: rgb(0, 10, 10);
-   background-color: transparent;
-   font-size: 20px;
-   border-color: rgb(24, 189, 134);
+   color: rgb(253, 253, 253);
+  background-color: rgba(41, 128, 155, 0.39);
+  font-size: 25px;
+  transition: .4s;
+  font-weight: 700;
 } 
 
 .next:hover {
-  color: rgb(0, 105, 105);
+  color: rgb(27, 26, 26);
+  cursor: pointer;
+  background-color: rgba(4, 161, 209, 0.39);
 }
