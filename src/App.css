@@ -32,17 +32,21 @@ body {
   justify-content: center;
 }
 .start{
-  width: 20em;
+  width: 10em;
   max-width: 100%;
   border-radius: 10px;
-  padding: 10px;
+  border: none;
+  padding: 6px;
   color: rgb(253, 253, 253);
-  background-color: transparent;
-  font-size: 20px;
+  background-color: rgba(41, 128, 155, 0.39);
+  font-size: 25px;
+  transition: .4s;
+  font-weight: 700;
 }
 
 .start:hover {
-  color: aqua;
+  cursor: pointer;
+  background-color: rgba(4, 161, 209, 0.39);
 }
 
 .spinner-border{
