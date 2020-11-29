@@ -51,6 +51,8 @@ body {
   border-radius: 10px;
   font-family: 'Texturina', serif;
   border: none;
+  outline-style: none;
+  outline: none;
   padding: 6px;
   color: rgb(253, 253, 253);
   background-color: rgba(41, 128, 155, 0.39);
@@ -94,6 +96,8 @@ body {
   font-family: 'Texturina', serif;
   margin: 10px;
   border: none;
+  outline: none;
+  outline-style: none;
   color: rgb(253, 253, 253);
   background-color: rgba(41, 128, 155, 0.39);
   font-size: 25px;
@@ -121,6 +125,8 @@ body {
   background-color: rgba(41, 128, 155, 0.39);
   font-size: 25px;
   transition: .4s;
+  outline: none;
+  outline-style: none;
   font-weight: 700;
 } 
 
